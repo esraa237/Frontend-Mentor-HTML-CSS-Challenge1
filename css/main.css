@@ -25,7 +25,7 @@ body{
 }
 .container{
     padding: 20px;
-    width: 250px;
+    width: 330px;
     background-color: var(--card-color);
     border-radius: 5%;
     -webkit-border-radius: 5%;
@@ -73,24 +73,21 @@ body{
     cursor: pointer;
     opacity: 1;
 }
-h4{
-    margin-top:15px;
-    margin-bottom: 0;
-    padding:0;
+h2{
+   margin:20px 0px 15px 0px;
     color: var(--white);
 }
 .container> p{
-    margin-top: 10px;
     margin-bottom:5px;
     color:var(--soft-blue);
-    font-size: 13px;
-    line-height: 1.6;
+    font-size: 18px;
+    line-height: 1.8;
     font-weight:300;
 }
 .icons{
     display: flex;
     justify-content: space-between;
-    font-size: 14px;
+    font-size: 18px;
     font-weight:400;
     letter-spacing: .5px;
     border-bottom: 1px solid var(--line);
@@ -123,12 +120,12 @@ h4{
 }
 .creator p{
     color:var(--soft-blue);
-    font-size: 14px;
+    font-size: 18px;
 }
 .creator p span{
     color: var(--white);
     padding-left: 3px;
-    font-size: 14px;
+    font-size: 18px;
 }
 .creator .avatar{
     width:40px;
@@ -142,7 +139,7 @@ h4{
     -o-border-radius: 50%;
 }
 .creator span:hover,
-h4:hover{
+h2:hover{
     cursor: pointer;
     color: var(--main-color);
 }
