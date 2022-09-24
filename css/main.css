@@ -25,7 +25,7 @@ body{
 }
 .container{
     padding: 20px;
-    width: 300px;
+    width: 250px;
     background-color: var(--card-color);
     border-radius: 5%;
     -webkit-border-radius: 5%;
@@ -73,15 +73,18 @@ body{
     cursor: pointer;
     opacity: 1;
 }
-h3{
-   margin:20px 0px 15px 0px;
+h4{
+    margin-top:15px;
+    margin-bottom: 0;
+    padding:0;
     color: var(--white);
 }
 .container> p{
+    margin-top: 10px;
     margin-bottom:5px;
     color:var(--soft-blue);
-    font-size: 16px;
-    line-height: 1.8;
+    font-size: 13px;
+    line-height: 1.6;
     font-weight:300;
 }
 .icons{
@@ -120,12 +123,12 @@ h3{
 }
 .creator p{
     color:var(--soft-blue);
-    font-size: 15px;
+    font-size: 14px;
 }
 .creator p span{
     color: var(--white);
     padding-left: 3px;
-    font-size: 16px;
+    font-size: 14px;
 }
 .creator .avatar{
     width:40px;
@@ -139,7 +142,7 @@ h3{
     -o-border-radius: 50%;
 }
 .creator span:hover,
-h3:hover{
+h4:hover{
     cursor: pointer;
     color: var(--main-color);
 }
